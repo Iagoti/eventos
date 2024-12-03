@@ -7,5 +7,3 @@ export default class Id{
         return Math.random().toString(36).substring(2, 15);
     }
 }
-
-console.log(Id.novo());
